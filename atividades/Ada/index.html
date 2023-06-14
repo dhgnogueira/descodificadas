@@ -1,0 +1,46 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute</title>
+    <style>
+        p{
+            margin-top: 50px;
+            float: right;
+            width: 350px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #360e02;
+            text-align: justify;
+        }
+        #elemento_pai{
+            padding: 50px;
+            position: relative;
+            width: auto;
+            height: 480px;
+            background-color: rgb(189, 147, 122);
+            text-align: right;
+        }
+       
+        .posabsoluta{
+            position: absolute;
+            top: 100px;
+            left: 70px;
+            width: 404px;
+            height: 390px;
+            background-image: url('ada.png');
+            border: 10px double #360e02;
+        }
+    </style>
+</head>
+<body>
+    <div id="elemento_pai">
+        <div class="posabsoluta vermelho">
+
+        </div>
+        
+        <p>
+        Augusta Ada Byron King, também conhecida como Condessa de Lovelace ou também Ada Lovelace, foi uma matemática e escritora inglesa. <br><br>Ela é reconhecida atualmente por ter escrito o primeiro algoritmo a ser processado por uma máquina, a máquina analítica de Charles Babbage. <br><br>Durante o período em que esteve envolvida com este projeto, ela desenvolveu os algoritmos que permitiriam à máquina computar os valores de funções matemáticas. <br><br>Publicou também uma coleção de notas sobre a máquina analítica, trabalho pelo qual é considerada a primeira programadora de toda a história.</p>
+    </div>
+</body>
+</html>
