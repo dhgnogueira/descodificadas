@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script no head</title>
+
+     <script>
+
+          function imprimeLista(quantidade){
+
+               document.write("<ul>");
+
+               for(count=1; count <= quantidade; count++){
+
+                     document.write( "<li>" + count + "</li>");
+
+               }
+
+               document.write("</ul>");
+
+          }
+
+     </script>
+</head>
+<body>
+    <script>
+
+        imprimeLista(10);
+
+   </script>
+</body>

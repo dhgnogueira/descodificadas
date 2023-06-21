@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script no head</title>
+
+        <script>
+
+            var over = 0;
+
+            var out = 0;
+
+            function contOver(){
+
+                 over++;
+
+            }
+
+            function contOut(){
+
+                 out++;
+
+            }
+
+            function imprimeAlerta(){
+
+                 alert('Entradas:'+over+' Saidas:'+out);
+
+            }
+
+        </script>
+
+</head>
+<body onClick='imprimeAlerta()'>
+
+    <img id='exemplo1' src='okgo.gif' onMouseOver='contOver()' onMouseOut='contOut()' />
+</body>
+</html>
+
