@@ -1,0 +1,132 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    width: 100%;
+    align-content: center;
+    align-content: center;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 15vh 85vh vh;
+    grid-template-areas: "h h "
+                        "m m"
+                        "f f";
+}
+
+ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+    color: bisque;
+}
+
+.header{
+    background: rgb(4,31,2);
+    height: 35px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+    grid-area: h;
+}
+.logo{
+    width: 30px ;
+    height: 30px;
+}
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(4, 31, 2);
+    font-size: 32 px;
+    text-align: center;
+    font-weight: bolder;
+}
+ h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(4, 31, 2);
+    font-size: 20 px;
+    text-align: center;
+    font-weight:bolder;
+} 
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(4, 31, 2);
+    font-size: 16 px;
+    text-align: center;
+    font-weight:normal;
+}
+.container > main{
+    width: 100%;
+    grid-area: m;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+section{
+    background-color: darkolivegreen;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    width: 850px;
+    border: 1px solid rgb(4, 31, 2);
+    border-radius: 10px;
+}
+
+.fases{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;;
+    margin: 0 auto;
+    border: 7px double rgb(4, 31, 2);
+    border-radius: 10px;
+    width: 250px;
+    height: 400px;   
+} 
+.botao{
+    text-align: center; 
+}
+div{
+        margin: 0 auto;
+        width: 900px;
+        text-align: center;
+        align-content: center;
+        
+}
+
+footer{
+    font-family: pacifico;
+    color: rgb(4, 31, 2);
+    font-size: 16 px;
+    text-align: center;
+    font-style: italic;
+    font-weight:normal;
+    /* position:fixed; */
+    grid-area: f;
+    /* grid-column-start: 1;  */
+    grid-column-end: 3;
+}
