@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Projeto de nutrição</title>
+    
+    <!--CSS externo-->
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="logo icon" href="Img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <div class="container">
+    
+        <header class="header">
+            <img class="logo" src="Img/logo.png">
+            <nav>
+                <ul class="menu">
+                    <a target="_blank" href="index_1.html">Home</a>
+                    <a target="_blank" href="seguranca.html">Segurança</a>
+                    <a target="_blank" href="beneficios.html">Benefícios</a>
+                    <a target="_blank" href="local.html">Local</a>
+                </ul>
+            </nav>
+        </header>
+        
+        <main class="main">
+
+            <div class="inicio">
+                <div>
+                    <p style="background-image: url('Img/alface.jpeg'); width: 900px; height: 650px; background-repeat: no-repeat;">
+                        <b style="color:rgb(255, 209, 184); font-size: 36pt; font-family: pacifico; opacity: 0.8;"><i><br>Lá da horta...</i></b>
+                    </p>
+                </div>
+            </div>
+
+            <h2>Projeto de nutrição</h2>
+            <section class="sobre">
+                <div>
+                    <h3><b>Sobre</b></h3>
+                    <p><h3>Projeto na área de nutrição, saúde e bem estar, desenvolvido como 
+                        parte das <br>habilidades  e competências praticadas  em um curso em técnico e nutrição.</h3>
+                    </p>
+                </div>
+            </section>
+
+            <div class="botao">
+                <br>
+                <br>
+            </div>
+                
+            <div>
+                <form action="pesquisa" method="get">
+
+                    <input type="button" value="Como anda sua alimentação?">
+
+                    <fieldset id="consumo"><legend>Consumo</legend>
+                        <p>
+                            <label for="consumo">Consumo:</label>
+                            Você costuma incluir frutas e hortaliças na sua alimentação?
+                            <br>
+                            <br>  
+                            <input type="radio" name="tconsumo" id="tconsumo">
+                            Sim
+                            <br>
+                            <br>
+                            <input type="radio" name="tconsumo"id="tconsumo"/>
+                            Não
+                            <br>
+                        </p>
+                    </fieldset>
+
+                    <fieldset id="frequencia"><legend>Frequência</legend>
+                        <p><label for="frequencia">Frequência:</label>
+                            Com que frequência costuma consumir frutas e hortaliças? 
+                            <select name="tfreq" id="cfreq">
+                                <option>Nunca</option>
+                                <option>Até 2 vezes na semana</option>
+                                <option>De 3 a 4 vezes na semana</option>
+                                <option>5 vezes ou mais</option>
+                            </select>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            
+                <br>
+               
+            <h2>Fases do projeto</h2>
+            <section>
+                <div class="fases" id="fase1">
+                            <h3><b>Fase 1: Implantação</b></h3>
+                            <img src="Img/implantação.jpg" width = "55%" height = "55%">
+                            <p><h3>Escolha do local, das plantas, preparação do solo, adubação
+                            e plantio.</h3></p>       
+                    </div>
+                
+                    <div class="fases" id="fase2"> 
+                            <h3><b> 2: Desenvolvimento</b></h3>
+                            <img src="Img/desenvolvimento.jpg" width = "55%" height = "55%">
+                            <p><h3>Fase de cuidados, manutenção e pesquisa.</h3> </p>
+                    </div>
+                
+                    <div class="fases" id="fase3">
+                            <h3><b> 3: Colheita</b></h3>
+                            <img src="Img/pimentao_verde.jpg" width = "55%" height = "55%">
+                            <p><h3>Finalização do projeto com a colheita de alimentos, estudo 
+                            e sugestões de consumo.</h3></p>
+                </div>
+            </section>
+
+            <br>    
+    
+            <section class="missao">
+                    <div>
+                        <h3><b>Missão</b></h3>
+                    
+                        <p><h3>Incentivar a autonomia e a melhoria da segurança alimentar da 
+                            comunidade local.<br>
+                            É esperado ainda que o hábito da alimentação saudável se espalhe
+                            por outras comunidades.</h3>
+                        </p>
+                    
+                        <img src="Img/brocolis_pe.jpg" width = "30%" height = "5%">
+                
+                        <p><h3>É possível ter uma alimentação saudável com alimentos simples,
+                            saudáveis e de baixo custo.</h3></p>
+                    </div>
+            </section>
+            <br> 
+            <section class="autoras">
+            
+                    <div>
+                        <h3><b>Autoras</b></h3>
+                        <img src="Img/autoras.png" width = "50%" height = "50%">
+                        <p><h3>Denise Nogueira<br>Raquel Duarte
+                        <br>Técnicas em Nutrição e Dietética</h3></p>
+                    </div> 
+            </section>         
+            <br>
+        
+            <section class="informacoes">
+                    <div>
+                        <h3><b>Mais informações sobre o projeto</b></h3>
+                        <button>
+                        <a href="mailto:denise_dhg@hotmail.com">Contato</a>
+                        </button>
+                    </div>
+            </section>
+        </main>
+
+        <!-- <br>
+        <br> -->
+        <footer>Criado por Denise Nogueira</footer>
+    </div>   
+</body>
+</html>
